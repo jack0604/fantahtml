@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=20px, initial-scale=1.0">
+    <title>Fantahtml</title>
+    <style>
+        body{
+                background: black;
+                overflow: hidden;
+                background-size: 100%;
+                color: yellowgreen;
+            }
+            #nome{
+                padding: 10px;
+                border-radius: 24px;
+                border: 2px solid aquamarine;
+                margin-bottom: 15px;
+            }
+            .bottone{
+                width: 90px;
+                padding: 15px;
+                background: white;
+                margin-top: 15px;
+                border-radius: 24px;
+            }
+        @media screen and (max-width: 1080px) {
+            body{
+                background: url(sfondo_1.jpg);
+                overflow: hidden;
+                background-size: 200%;
+                color:yellow;
+            }
+            #nome{
+                padding: 10px;
+                border-radius: 24px;
+                border: 2px solid aquamarine;
+                margin-bottom: 15px;
+            }
+            .bottone{
+                text-decoration: none;
+                width: 90px;
+                padding: 15px;
+                background: white;
+                margin-top: 15px;
+                border-radius: 24px;
+                margin-left: 10px;
+            }
+            form{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form  method="get">
+        <div class="titolo">
+            <h1>Registrati</h1>
+        </div>
+        <h2>Nome</h2>
+        <input type="text" id="nome" placeholder="Inserisci il tuo nome">
+        <br>
+        <h2>Cognome</h2>
+        <input type="text" id="nome" placeholder="Inserisci il tuo cognome">
+        <br>
+        <h2>Email</h2>
+        <input type="email" name="email" id="nome" placeholder="Email">
+        <br>
+        <h2>Password</h2>
+        <input type="password" name="nome" id="nome" placeholder="Password">
+        <br>
+        <h2>Conferma Password</h2>
+        <input type="password" name="nome" id="nome" placeholder="Conferma password">
+        <br>
+        <br>
+        <a href="index.html" class="bottone">Log in</a>
+    </form>
+</body>
+</html>
